@@ -1,0 +1,11 @@
+scipy
+numpy
+yamlargparse
+pesq==0.0.4
+torch
+pydub
+einops
+rotary_embedding_torch
+librosa
+huggingface_hub
+ffmpeg-python

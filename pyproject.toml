@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "clearervoice48k"
+version = "0.1.0"
+description = "library to use ClearVoice 48k"
+authors = ["Emmanuel Schmidbauer <eschmidbauer@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+numpy = "1.26.4"
+scipy = "1.15.0"
+soundfile = "0.13.0"
+ffmpeg-python = "0.2.0"
+torch = "2.3.1"
+torchaudio = "2.3.1"
+torchvision = "0.18.1"
+torchcrepe = "0.0.23"
+torchfcpe = "0.0.4"
+einops = "0.8.0"
+rotary-embedding-torch = "0.8.6"
+yamlargparse = "1.31.1"
+pesq = "0.0.4"
+pydub = "0.25.1"
+librosa = "0.10.2.post1"
+huggingface_hub = "0.27.1"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
